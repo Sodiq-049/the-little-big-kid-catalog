@@ -4,19 +4,34 @@ import { BranchContext } from '../context/BranchContext';
 import { Link } from 'react-router-dom';
 
 function Home() {
-  const { showModal} = useContext(BranchContext);
+  const { showModal, setSelectedBranch } = useContext(BranchContext);
+
+  const handleSelectBranch = (branch) => {
+    localStorage.setItem('selectedBranch', branch);
+    setSelectedBranch(branch);
+  };
 
   return (
     <div className="home-container">
-      {/* {showModal && (
+      {showModal && (
         <div className="modal-overlay">
           <div className="modal-content">
             <h2>Select Your Store Location</h2>
-            <button onClick={() => selectBranch('Lekki')} className="branch-btn lekki">Lekki Branch</button>
-            <button onClick={() => selectBranch('Ikoyi')} className="branch-btn ikoyi">Ikoyi Branch</button>
+            <button
+              onClick={() => handleSelectBranch('Lekki')}
+              className="branch-btn lekki"
+            >
+              Lekki Branch
+            </button>
+            <button
+              onClick={() => handleSelectBranch('Ikoyi')}
+              className="branch-btn ikoyi"
+            >
+              Ikoyi Branch
+            </button>
           </div>
         </div>
-      )} */}
+      )}
 
       {!showModal && (
         <>

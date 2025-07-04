@@ -8,14 +8,21 @@ export const BranchProvider = ({ children }) => {
   const [showModal, setShowModal] = useState(true);
 
   useEffect(() => {
-    const branch = localStorage.getItem('selectedBranch');
-    if (branch) {
-      setSelectedBranch(branch);
-      setShowModal(false);
-    }
-  }, []);
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get('reset') === 'true') {
+    localStorage.removeItem('selectedBranch');
+  }
 
-const selectBranch = (branch, onComplete) => {
+  const stored = localStorage.getItem('selectedBranch');
+  if (stored) {
+    setSelectedBranch(stored);
+    setShowModal(false);
+  } else {
+    setShowModal(true);
+  }
+    }, []);
+
+    const selectBranch = (branch, onComplete) => {
   localStorage.setItem('selectedBranch', branch);
   setSelectedBranch(branch);
   setShowModal(false);
@@ -23,7 +30,7 @@ const selectBranch = (branch, onComplete) => {
   if (onComplete && typeof onComplete === 'function') {
     onComplete();
   }
-};
+    };
 
   const clearBranch = () => {
     localStorage.removeItem('selectedBranch');
