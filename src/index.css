@@ -5,9 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(231, 224, 224); /* Light gray background for the body */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Make all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improve text scaling on small screens */
+@media (max-width: 480px) {
+  h1, h2, h3 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button, a {
+    font-size: 14px;
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
 }

@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.home-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.link-buttons {
+  margin-top: 30px;
+}
+
+.category-link {
+  margin: 10px;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  color: white;
+  background-color: #0099FF;
+}
+
+.category-link:hover {
+  background-color: #007acc;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal-content {
+  background: white;
+  padding: 40px 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.branch-btn {
+  padding: 12px 24px;
+  margin: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.branch-btn.lekki {
+  background-color: #0099FF; /* Sky Blue */
+}
+
+.branch-btn.ikoyi {
+  background-color: #4CAF50; /* Green */
+}
+
+.branch-btn:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    width: 90%;
+    padding: 30px 15px;
+  }
+
+  .branch-btn {
+    width: 80%;
+    font-size: 15px;
+  }
+
+  .category-link {
+    display: block;
+    margin: 15px auto;
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .branch-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .category-link {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+}

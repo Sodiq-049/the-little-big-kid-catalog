@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -34,5 +35,13 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/*Additional styling for the body*/
+
+@media (max-width: 768px) {
+  .App {
+    padding: 15px;
   }
 }
