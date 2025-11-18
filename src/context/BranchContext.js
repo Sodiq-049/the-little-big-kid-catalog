@@ -19,7 +19,7 @@ export const BranchProvider = ({ children }) => {
     localStorage.removeItem('selectedBranch');
   }
 
-  const stored = localStorage.getItem('selectedBranch');
+  const stored = sessionStorage.getItem('selectedBranch');
   if (stored) {
     setSelectedBranch(stored);
     setShowModal(false);
@@ -29,7 +29,7 @@ export const BranchProvider = ({ children }) => {
     }, []);
 
     const selectBranch = (branch, onComplete) => {
-  localStorage.setItem('selectedBranch', branch);
+  sessionStorage.setItem('selectedBranch', branch);
   setSelectedBranch(branch);
   setShowModal(false);
 
@@ -39,7 +39,7 @@ export const BranchProvider = ({ children }) => {
     };
 
   const clearBranch = () => {
-    localStorage.removeItem('selectedBranch');
+    sessionStorage.removeItem('selectedBranch');
     setSelectedBranch(null);
     setShowModal(true); // Force modal to show
   };
