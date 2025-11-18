@@ -7,8 +7,8 @@ function ProductCard({ product }) {
 
   // Branch-specific WhatsApp numbers
   const whatsappNumbers = {
-    Lekki: "234 810 100 7614", // <-- PUT LEKKI NUMBER
-    Ikoyi: "234 908 746 6702"  // <-- PUT IKOYI NUMBER
+    Lekki: "2348101007614", // <-- PUT LEKKI NUMBER
+    Ikoyi: "2349087466702"  // <-- PUT IKOYI NUMBER
   };
 
   const phone = whatsappNumbers[selectedBranch];
