@@ -1,29 +1,20 @@
-import React, { useContext, useMemo } from 'react';
+import React, { useContext } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import { BranchContext } from '../context/BranchContext';
 import './GenderGifts.css';
 
-function GenderGifts() {
+function GenderGifts({ products }) {
   const { selectedBranch } = useContext(BranchContext);
   const { gender } = useParams();
   const navigate = useNavigate();
 
-  // Dynamically load product data based on selected branch
-  const products = useMemo(() => {
-    if (selectedBranch === 'Ikoyi') {
-      return require('../data/productsIkoyi').default;
-    }
-    return require('../data/productsLekki').default;
-  }, [selectedBranch]);
-
-  // Redirect to home if branch not selected
   if (!selectedBranch) {
     navigate('/');
     return null;
   }
 
-  // If no gender is selected, show options
+  // If gender not selected → show options
   if (!gender) {
     return (
       <div style={{ padding: 30 }}>
@@ -40,7 +31,7 @@ function GenderGifts() {
     );
   }
 
-  const genderProducts = products.genders[gender];
+  const genderProducts = products.genderGroups[gender];
 
   if (!genderProducts) {
     return (
@@ -51,19 +42,10 @@ function GenderGifts() {
     );
   }
 
-  // Shopify “See More” links by branch
   const seeMoreLinks = {
-    Lekki: {
-      boys: "https://thelittlebigkidcompany.com/collections/boys-gift",
-      girls: "https://thelittlebigkidcompany.com/collections/girls-gift",
-    },
-    Ikoyi: {
-      boys: "https://thelittlebigkidcompany.com/collections/boys-gift-ikoyi",
-      girls: "https://thelittlebigkidcompany.com/collections/girls-gift-ikoyi",
-    },
+    boys: "https://thelittlebigkidcompany.com/collections/boys-gift",
+    girls: "https://thelittlebigkidcompany.com/collections/girls-gift",
   };
-
-  const branchLinks = seeMoreLinks[selectedBranch];
 
   return (
     <div style={{ padding: 30 }}>
@@ -76,10 +58,9 @@ function GenderGifts() {
         ))}
       </div>
 
-      {/* See More Link */}
       <div style={{ marginTop: 40, textAlign: 'center' }}>
         <a
-          href={branchLinks[gender]}
+          href={`${seeMoreLinks[gender]}?branch=${selectedBranch}`}
           target="_blank"
           rel="noopener noreferrer"
           className="see-more-link"

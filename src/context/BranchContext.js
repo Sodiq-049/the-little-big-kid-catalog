@@ -3,6 +3,12 @@ import { createContext, useState, useEffect } from 'react';
 
 export const BranchContext = createContext();
 
+export const WHATSAPP_NUMBERS = {
+  Lekki: "+2348101007614",   
+  Ikoyi: "+2349087466702"
+};
+
+
 export const BranchProvider = ({ children }) => {
   const [selectedBranch, setSelectedBranch] = useState(null);
   const [showModal, setShowModal] = useState(true);

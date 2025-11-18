@@ -1,27 +1,27 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import './DetailPage.css';
+import { BranchContext } from '../context/BranchContext';
 
-const selectedBranch = localStorage.getItem('selectedBranch');
-const products = selectedBranch === 'Lekki'
-  ? require('../data/productsLekki').default
-  : require('../data/productsIkoyi').default;
+import productsLekki from '../data/productsLekki';
+import productsIkoyi from '../data/productsIkoyi';
 
-// SeeMore links for different age groups
-  const seeMoreLinks = {
-        boys: "https://thelittlebigkidcompany.com/collections/boys-gift",
-        girls: "https://thelittlebigkidcompany.com/collections/girls-gift"
-    };
+const seeMoreLinks = {
+  boys: "https://thelittlebigkidcompany.com/collections/boys-gift",
+  girls: "https://thelittlebigkidcompany.com/collections/girls-gift"
+};
 
 function GenderDetail() {
   const { gender } = useParams();
-  const genderItems = products.genderGroups[gender] || [];
+  const { selectedBranch } = useContext(BranchContext);
 
-  // Dynamic Shopify link for gender group
-//   const shopifyLink = selectedBranch === 'Lekki'
-//     ? `https://thelittlebigkidcompany.com/collections/${gender}?branch=Lekki`
-//     : `https://thelittlebigkidcompany.com/collections/${gender}?branch=Ikoyi`;
+  // Load products based on branch
+  const products =
+    selectedBranch === "Ikoyi" ? productsIkoyi : productsLekki;
+
+  // FIXED: use the correct key
+  const genderItems = products.genderGroups[gender] || [];
 
   return (
     <div className="detail-page-container">
@@ -35,6 +35,7 @@ function GenderDetail() {
 
       <div className="detail-links">
         <Link to="/gender-gifts" className="back-link">← Go Back</Link>
+
         <a
           href={`${seeMoreLinks[gender]}?branch=${selectedBranch}`}
           target="_blank"
