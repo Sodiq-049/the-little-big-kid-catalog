@@ -7,25 +7,26 @@ import GenderDetail from './pages/GenderDetail';
 import BranchGuard from './components/BranchGuard';
 import Navbar from './components/Navbar';
 
-import productsLekki from './data/productsLekki'; 
+import productsLekki from './data/productsLekki';
 import productsIkoyi from './data/productsIkoyi';
 
-import { useState } from 'react';
+import { useContext } from 'react';
+import { BranchContext } from './context/BranchContext';
 
 function App() {
-  const [selectedBranch, setSelectedBranch] = useState(null);
 
-  // Choose which products to show based on selected branch
+  // Get selectedBranch from BranchContext (the correct global source)
+  const { selectedBranch } = useContext(BranchContext);
+
+  // Choose which product set to use based on the selected branch
   const products =
     selectedBranch === "Ikoyi" ? productsIkoyi : productsLekki;
 
   return (
     <Router>
-      {/* Navbar can switch branch */}
-      <Navbar
-        selectedBranch={selectedBranch}
-        setSelectedBranch={setSelectedBranch}
-      />
+
+      {/* Navbar now gets selectedBranch from context */}
+      <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -33,7 +34,7 @@ function App() {
         <Route
           path="/shop-by-age"
           element={
-            <BranchGuard selectedBranch={selectedBranch}>
+            <BranchGuard>
               <ShopByAge products={products} />
             </BranchGuard>
           }
@@ -42,7 +43,7 @@ function App() {
         <Route
           path="/shop-by-age/:age"
           element={
-            <BranchGuard selectedBranch={selectedBranch}>
+            <BranchGuard>
               <AgeDetail products={products} />
             </BranchGuard>
           }
@@ -51,7 +52,7 @@ function App() {
         <Route
           path="/gender-gifts"
           element={
-            <BranchGuard selectedBranch={selectedBranch}>
+            <BranchGuard>
               <GenderGifts products={products} />
             </BranchGuard>
           }
@@ -60,7 +61,7 @@ function App() {
         <Route
           path="/gender-gifts/:gender"
           element={
-            <BranchGuard selectedBranch={selectedBranch}>
+            <BranchGuard>
               <GenderDetail products={products} />
             </BranchGuard>
           }
