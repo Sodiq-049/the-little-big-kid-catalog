@@ -14,18 +14,14 @@ import { useContext } from 'react';
 import { BranchContext } from './context/BranchContext';
 
 function App() {
-
-  // Get selectedBranch from BranchContext (the correct global source)
   const { selectedBranch } = useContext(BranchContext);
 
-  // Choose which product set to use based on the selected branch
+  // Choose correct product set
   const products =
     selectedBranch === "Ikoyi" ? productsIkoyi : productsLekki;
 
   return (
     <Router>
-
-      {/* Navbar now gets selectedBranch from context */}
       <Navbar />
 
       <Routes>

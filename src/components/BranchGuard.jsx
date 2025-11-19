@@ -1,15 +1,11 @@
-// src/components/BranchGuard.jsx
-import React from 'react';
+import { useContext } from 'react';
+import { BranchContext } from '../context/BranchContext';
 import { Navigate } from 'react-router-dom';
 
-const BranchGuard = ({ children }) => {
-  const selectedBranch = localStorage.getItem('selectedBranch');
+export default function BranchGuard({ children }) {
+  const { selectedBranch } = useContext(BranchContext);
 
-  if (!selectedBranch) {
-    return <Navigate to="/" replace />;
-  }
+  if (!selectedBranch) return <Navigate to="/" />;
 
   return children;
-};
-
-export default BranchGuard;
+}
