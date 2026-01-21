@@ -9,24 +9,24 @@ const products = {
       },
 
       {
-        name: "Activity Gym",
-        price: "N115,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71IDDtTu8ML._AC_SX679_1024x1024.jpg?v=1750861224",
-        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/angelbliss-activity-gym-baby-play-mat-with-music-and-detachable-piano-with-blutooth-mode-infants-and-toddlers-aged-0-to-18-months-super-soft-foot-gym-carpet-fitness-rack-gender-neutral-blue?branch=Ikoyi`,
+        name: "30cm Keeleco Teddy Bear. Two colours",
+        price: "33,650",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/KTSE3321_auto_1024x1024.jpg?v=1743544664",
+        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/25cm-keeleco-teddy-bear-two-colours?branch=Ikoyi`,
       },
 
       {
-        name: "Go Wild Gym ",
-        price: "N215,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/12086854_1024x1024.jpg?v=1750860893",
-        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/fisher-price-go-wild-gym-giraffe-wedge-infant-activity-gym-with-large-playmat?branch=Ikoyi`,
+        name: "Boneca Cry Babies Fantasy Hannah",
+        price: "48,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/196286-1200-auto_1024x1024.jpg?v=1763825600",
+        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/boneca-cry-babies-fantasy-hannah-multikids?branch=Ikoyi`,
       },
 
       {
-        name: "Revolve Swing",
-        price: "N275,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/32523205-1_1184x1184_32a0d4ba-484b-45e0-92ef-6dcdb0b82084_1024x1024.jpg?v=1750860420",
-        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/fisher-price-revolve-swing?branch=Ikoyi`,
+        name: "Cubika Travelling Ducks Pull along",
+        price: "34,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/traveling-ducks-05-082fedb3ae934a1d53fbbb5df70d2257-w1920_1024x1024_2x_2cb55e7c-0f1f-493f-88f3-79c7586ae3af_1024x1024.jpg?v=1763821755",
+        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/cubika-travelling-ducks-pull-along?branch=Ikoyi`,
       },
 
       {
@@ -61,10 +61,10 @@ const products = {
       },
 
       {
-        name: "Toyi Basic 40",
-        price: "N39,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/toyi-basic-40_1024x1024.jpg?v=1748271923",
-        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/toyi-basic-40?branch=Ikoyi`,  
+        name: "Barbie Extra Minis Doll Fashion Playset",
+        price: "N69,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/668095592ed5ce3d122281c3-barbie-extra-minis-doll-fashion_1024x1024.jpg?v=1742298631",
+        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/barbie-extra-minis-doll-fashion-playset-with-15-pieces-boutique-with-small-doll-clothes-accessories-including-gummy-bear-keychain?branch=Ikoyi`,  
       },
 
       {
@@ -77,10 +77,10 @@ const products = {
 
     "6-9": [
       {
-        name: "Toyi Constructions Building Kit",
-        price: "N76,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/TY408691_720x_2x_22779271-546f-4935-9ea1-db9a496d3caa_1024x1024.jpg?v=1748273087",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/toyi-constructions-building-kit?branch=Ikoyi`,
+        name: "Hape Build-It Tool Box",
+        price: "N79,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/HE3220Build-ItToolBox-Packaging_1400x_b6c28137-b3fb-4514-a61a-cb07723eff62_1024x1024.jpg?v=1763907596",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/hape-build-it-tool-box?branch=Ikoyi`,
       },
 
       {
@@ -91,41 +91,41 @@ const products = {
       },
 
       {
-        name: "Partynails Glitterstudio",
-        price: "N55,450",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/3680807a_1024x1024.jpg?v=1748261208",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/make-it-real-partynails-glitterstudio?branch=Ikoyi`,
+        name: "Power Kid bilingual French and English educational laptop",
+        price: "N91,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/3380743085852_1_1024x1024.png?v=1759933473",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/power-kid-bilingual-french-and-english-educational-laptop?branch=Ikoyi`,
       },
 
       {
-        name: "Be a Youtuber",
-        price: "N46,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81XAjR5ptKL._AC_SX679_1024x1024.jpg?v=1746707280",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/science4you-be-a-youtuber-starter-kit-for-kids-8?branch=Ikoyi`,
+        name: "Pastel Geometry Pack 40 pc",
+        price: "N138,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/image_1726210148_1024x1024.png?v=1759150867",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/pastel-geometry-pack-40-pc?branch=Ikoyi`,
       },
 
       {
-        name: "Crystal Sunshine Bracelets",
-        price: "N22,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81G4xLoyp_L._AC_SX679_1024x1024.jpg?v=1748258198",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/make-it-real-mini-juicy-couture-crystal-sunshine-bracelets?branch=Ikoyi`,
+        name: "ZZZMOON Story Projector for Kids, Storybook Projector Toys",
+        price: "N102,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61iuypP2unL._SX679_1024x1024.jpg?v=1759930709",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/zzzmoon-story-projector-for-kids-storybook-projector-toys?branch=Ikoyi`,
       },
     ],
 
 
     "9-12": [
       {
-        name: "Perfectly Pink Bracelets",
-        price: "N42,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81U4_-N5ioL._AC_SX569_1024x1024.jpg?v=1741167699",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/make-it-real-juicy-couture-perfectly-pink-bracelets?branch=Ikoyi`, 
+        name: "Big Potato P for Pizza",
+        price: "N21,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81nfV57RO8L._AC_SX679_1024x1024.jpg?v=1759936584",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/big-potato-p-for-pizza-build-a-giant-pizza-slice-before-anyone-else-family-word-game-great-for-adults-and-kids-multicolored?branch=Ikoyi`, 
       },
 
       {
-        name: "Constructions Building Kit",
-        price: "N76,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/TY408691_720x_2x_22779271-546f-4935-9ea1-db9a496d3caa_1024x1024.jpg?v=1748273087",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/toyi-constructions-building-kit?branch=Ikoyi`,
+        name: "CONNETIX Rainbow Geometry Pack, 30 Pieces",
+        price: "N105,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/51Dz3typE2L._AC_SX679_1024x1024.jpg?v=1759149847",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/connetix-rainbow-geometry-pack-30-pieces?branch=Ikoyi`,
       },
 
       {
@@ -136,26 +136,26 @@ const products = {
       },
 
       {
-        name: "TOP TRUMPS QUIZ",
-        price: "N33,350",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/top-trumps-quiz-countries-and-flags-wholesale-86761_1024x1024.jpg?v=1745417941",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/top-trumps-quiz-countries-and-flags?branch=Ikoyi`, 
+        name: "Party2-Go Karaoke Mic Disco Ball Combo, Silver Bling",
+        price: "N99,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/dkrfiopx7wpcd9nixes7_1024x1024.jpg?v=1755098029",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/party2-go-karaoke-mic-disco-ball-combo-silver-bling?branch=Ikoyi`, 
       },
 
       {
-        name: "Kinetic Sand",
-        price: "N48,7500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/s-l1600_faf07d45-5448-418b-a9b1-05d0df5c12c0_1024x1024.jpg?v=1708600682",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/spin-master-kinetic-sand-2lb-sand-and-tools-sandisfying-play-set-for-kids-age-3?branch=Ikoyi`,
+        name: "New R36 max Retro Handheld Game Console",
+        price: "N109,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71ReQ5HO0ML._AC_SX679_1024x1024.jpg?v=1768814219",
+        url: `https://thelittlebigkidcompany.com/collections/ages-12/products/new-r36-max-retro-handheld-game-console?branch=Ikoyi`,
       },
     ],
 
     "12-16": [
       {
-        name: "Partynails Glitterstudio",
-        price: "N55,450",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/3680807a_1024x1024.jpg?v=1748261208",
-        url: `https://thelittlebigkidcompany.com/collections/age-16/products/make-it-real-partynails-glitterstudio?branch=Ikoyi`,
+        name: "KMS-254 Latest Parlantes Kimiso Speaker",
+        price: "N145,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/H1f1f0190e90c4d8cb4b098a0b9a0a64cC_1024x1024.png?v=1768823136",
+        url: `https://thelittlebigkidcompany.com/collections/age-16/products/kms-254-latest-parlantes-kimiso-speaker?branch=Ikoyi`,
       },
 
       {
@@ -166,10 +166,10 @@ const products = {
       },
 
       {
-        name: "Jewelry Making Kit",
-        price: "N56,650",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/695929017019_1024x1024.jpg?v=1748261520",
-        url: `https://thelittlebigkidcompany.com/collections/age-16/products/make-it-real-ultimate-bead-studio-diy-tween-girls-beaded-jewelry-making-kit-arts-and-crafts-kit-guides-kids-to-design-and-create-beautiful-bracelets-necklaces-rings-and-headbands?branch=Ikoyi`,
+        name: "Music Creator Mini Karaoke Station & Disco Ball",
+        price: "N115,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/367589183029278_1024x1024.webp?v=1768822774",
+        url: `https://thelittlebigkidcompany.com/collections/age-16/products/music-creator-mini-karaoke-station-disco-ball?branch=Ikoyi`,
       },
 
       {
@@ -180,10 +180,10 @@ const products = {
       },
 
       {
-        name: "Money Box",
-        price: "N5,300",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/love-life-rainy-day-fund-mason-jar-money-box_1024x1024.jpg?v=1709926922",
-        url: `https://thelittlebigkidcompany.com/collections/age-16/products/love-life-rainy-day-fund-mason-jar-money-box?branch=Ikoyi`,
+        name: "New R36 max Retro Handheld Game Console",
+        price: "N109,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71ReQ5HO0ML._AC_SX679_1024x1024.jpg?v=1768814219",
+        url: `https://thelittlebigkidcompany.com/collections/age-16/products/new-r36-max-retro-handheld-game-console?branch=Ikoyi`,
       },
     ],
 
@@ -193,17 +193,17 @@ const products = {
   genderGroups: {
     boys: [
       {
-        name: "Wooden Shape Puzzle",
-        price: "N18,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/f4641af8-1e1d-4916-ab04-aac19a34cfe1_990x_64fb9670-f9f9-4ca9-a561-c46150d45772_1024x1024.jpg?v=1750866585",
-        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/ooky-toy-wooden-shape-puzzle?branch=Ikoyi`,
+        name: "Lexibook, Crosslander® Pro RC Concrete Mixer Remote Control Truck",
+        price: "N90,450",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81maoNiKz0L._AC_SX679_1024x1024.jpg?v=1768562911",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/lexibook-crosslander%C2%AE-pro-rc-concrete-mixer-remote-control-truck?branch=Ikoyi`,
       },
 
       {
-        name: "Stacking Blocks Logic Game",
-        price: "N29,950",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/TF268_1024x1024.jpg?v=1750866302",
-        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/stacking-blocks-logic-game?branch=Ikoyi`,
+        name: "R36S Portable Game Console with Linux Open Source System",
+        price: "N73,850",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61j8ZWhibHL._AC_SX679_1024x1024.jpg?v=1768814485",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/r36s-portable-game-console-with-linux-open-source-system?branch=Ikoyi`,
       },
       
       {
@@ -221,34 +221,34 @@ const products = {
       },
 
       {
-        name: "Power Rangers",
-        price: "N36,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71-hrox8erL._AC_SX425_1024x1024.jpg?v=1742310898",
-        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/power-rangers-lightning-collection-zeo-gold-ranger-6-inch-premium-collectible-action-figure-toy-with-accessories?branch=Ikoyi`,
+        name: "Whip Flash Buggy - Assorted",
+        price: "N69,250",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81791_MTRC_WhipFlash_GRN_PKG_1_1024x1024.jpg?v=1768559006",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/whip-flash-buggy-assorted?branch=Ikoyi`,
       },
     ],
 
 
     girls: [
       {
-        name: "Co Coffee Set",
-        price: "N27,450",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/350x350_181f14ab-6f95-462b-aba8-dce1359250a4_1024x1024.jpg?v=1750864164",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/tooky-toy-co-coffee-set-16x10x21cm?branch=Ikoyi`,
+        name: "Lexibook, Paw Patrol, Educational and Bilingual Laptop in English/Spanish",
+        price: "N91,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81nb0ED1LYL._AC_SX679_1024x1024.jpg?v=1768822046",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/lexibook-paw-patrol-educational-and-bilingual-laptop-in-english-spanish?branch=Ikoyi`,
       },
 
       {
-        name: "Cake Pop Shop",
-        price: "N44,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61JthrM4uiL._AC_SX679_1024x1024.jpg?v=1750862229",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/mattel-fisher-price-cake-pop-shop?branch=Ikoyi`,
+        name: "STEAM Kaleidescope Kit",
+        price: "N18,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81ozBFgDLsS._AC_SL1500_1080x_626f63a5-2819-4c62-8ffb-79ddb5b16bf0_1024x1024.jpg?v=1768820764",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/steam-kaleidescope-kit?branch=Ikoyi`,
       },
 
       {
-        name: "Skates Pink/Blue Size M",
-        price: "N73,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/wbty6065-m_xl__05637.1707228505_1024x1024.jpg?v=1748861794",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/xootz-kids-inline-skates-pink-blue-size-m?branch=Ikoyi`,
+        name: "Music Creator Mini Karaoke Station & Disco Ball",
+        price: "N115,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/367589183029278_1024x1024.webp?v=1768822774",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/music-creator-mini-karaoke-station-disco-ball?branch=Ikoyi`,
       },
 
       {
