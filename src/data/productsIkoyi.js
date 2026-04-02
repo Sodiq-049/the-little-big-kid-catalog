@@ -2,10 +2,10 @@ const products = {
   ageGroups: {
     "0-3": [
       {
-        name: "Sea Turtle Plushie",
-        price: "N37,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/FYL_Plushies_Elephant_1512x_55983d84-9e3e-43ac-9f14-5f234ac44ecb_620x.jpg?v=1762360801",
-        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/sea-turtle-plushie?branch=Ikoyi`,
+        name: "Tidlo Pink Country Play Kitchen",
+        price: "445,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/510-GQbBpEL._AC_SX679_620x.jpg?v=1770640930",
+        url: `hhttps://thelittlebigkidcompany.com/collections/0-3-years/products/tidlo-pink-country-play-kitchen-wooden-cooking-set-for-kids?branch=Ikoyi`,
       },
 
       {
@@ -30,17 +30,17 @@ const products = {
       },
 
       {
-        name: "CCubika Truck with Stacking Shapes",
-        price: "45,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/2019-08-29_314_620x.jpg?v=1763822455",
-        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/cubika-truck-with-stacking-shapes?branch=Ikoyi`,
+        name: "Boneca Cry Babies",
+        price: "48,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/196286-1200-auto_1024x1024.jpg?v=1763825600",
+        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/boneca-cry-babies-fantasy-hannah-multikids?branch=Ikoyi`,
       },
 
       {
-        name: "Cubika Travelling Ducks Pull along",
-        price: "34,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/traveling-ducks-05-082fedb3ae934a1d53fbbb5df70d2257-w1920_1024x1024_2x_2cb55e7c-0f1f-493f-88f3-79c7586ae3af_1024x1024.jpg?v=1763821755",
-        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/cubika-travelling-ducks-pull-along?branch=Ikoyi`,
+        name: "Sago Mini , 2-in-1 Fold Up Pillow Playset",
+        price: "32,450",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71nNodlPblL._AC_SX679_1024x1024.jpg?v=1750861574",
+        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/sago-mini-2-in-1-fold-up-pillow-playset-jinja-s-kitchen-with-plush-accessories-for-toddlers-multicolor?branch=Ikoyi`,
       },
 
       {
@@ -51,10 +51,10 @@ const products = {
       },
 
        {
-        name: "Hape Pony Pull Along",
-        price: "N49,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/Hape-Pony-Pull-Along-Hape-Toy-Market-44393527_1024x1024.jpg?v=1763906293",
-        url:`https://thelittlebigkidcompany.com/collections/0-3-years/products/hape-pony-pull-along?branch=Ikoyi`,
+        name: "Hape Pull-Along Frog Family",
+        price: "N59,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/Hape-Pull-Along-Frog-Family-Hape-Toy-Market-44392297_1024x1024.jpg?v=1763737692",
+        url:`https://thelittlebigkidcompany.com/collections/0-3-years/products/hape-pull-along-frog-family?branch=Ikoyi`,
       },
 
       {
