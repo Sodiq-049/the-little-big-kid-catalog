@@ -16,6 +16,13 @@ const products = {
       },
 
       {
+        name: "SmartMax My First Plane Toy Vehicle",
+        price: "26,750",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71_WyYHUSGL._AC_SX679_1024x1024.jpg?v=1759155679",
+        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/smartmax-my-first-plane-toy-vehicle-dynamic-stem-building-set?branch=Ikoyi`,
+      },
+
+      {
         name: "30cm Keeleco Teddy Bear. Two colours",
         price: "33,650",
         img: "https://thelittlebigkidcompany.com/cdn/shop/files/KTSE3321_auto_1024x1024.jpg?v=1743544664",
@@ -27,6 +34,13 @@ const products = {
         price: "180,000",
         img: "https://thelittlebigkidcompany.com/cdn/shop/files/81EilWxR_mL._AC_SL1500_620x.jpg?v=1770393702",
         url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/vtech-3-in-1-mow-and-grow-tractor-ride-on-tractor-push-along-mower?branch=Ikoyi`,
+      },
+
+      {
+        name: "FISHER PRICE REVOLVE SWING",
+        price: "275,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/32523205-1_1184x1184_32a0d4ba-484b-45e0-92ef-6dcdb0b82084_1024x1024.jpg?v=1750860420",
+        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/fisher-price-revolve-swing?branch=Ikoyi`,
       },
 
       {
@@ -50,7 +64,14 @@ const products = {
         url: `https://thelittlebigkidcompany.com/collections/0-3-years?branch=Ikoyi`,
       },
 
-       {
+      {
+        name: "Critter House Shape Sorter",
+        price: "49,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/E0515_2_1024x1024.jpg?v=1770395557",
+        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/critter-house-shape-sorter?branch=Ikoyi`,
+      },
+
+      {
         name: "Hape Pull-Along Frog Family",
         price: "N59,500",
         img: "https://thelittlebigkidcompany.com/cdn/shop/files/Hape-Pull-Along-Frog-Family-Hape-Toy-Market-44392297_1024x1024.jpg?v=1763737692",
@@ -76,6 +97,13 @@ const products = {
         price: "N91,500",
         img: "https://thelittlebigkidcompany.com/cdn/shop/files/fisher-price-rock-with-me-bassinet-gyf52-396639_1080x_790f3191-dfe3-4f64-888b-7fcebeb2a09c_620x.jpg?v=1763743931",
         url:`https://thelittlebigkidcompany.com/collections/0-3-years/products/rock-with-me-bassinet?branch=Ikoyi`,
+      },
+
+      {
+        name: "38cm keeleco multicoloured monkey",
+        price: "N22,350",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/keeleco-multicoloured-chimp-monkey-long-armed-38-cm-soft-toy_1024x1024.jpg?v=1743545800",
+        url:`https://thelittlebigkidcompany.com/collections/0-3-years/products/38cm-keeleco-multicoloured-monkey-long-lemur-chimp?branch=Ikoyi`,
       },
     ],
 
