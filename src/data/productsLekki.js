@@ -5,7 +5,7 @@ const products = {
         name: "Tidlo Pink Country Play Kitchen",
         price: "445,000",
         img: "https://thelittlebigkidcompany.com/cdn/shop/files/510-GQbBpEL._AC_SX679_620x.jpg?v=1770640930",
-        url: `hhttps://thelittlebigkidcompany.com/collections/0-3-years/products/tidlo-pink-country-play-kitchen-wooden-cooking-set-for-kids?branch=Lekki`,
+        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/tidlo-pink-country-play-kitchen-wooden-cooking-set-for-kids?branch=Lekki`,
       },
 
       {
