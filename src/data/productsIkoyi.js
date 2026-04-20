@@ -449,7 +449,7 @@ const products = {
 
       {
         name: "R36S Portable Game Console with Linux Open Source System",
-        price: "N63,350",
+        price: "N73,850",
         img: "https://thelittlebigkidcompany.com/cdn/shop/files/61j8ZWhibHL._AC_SX679_620x.jpg?v=1768814485",
         url: `https://thelittlebigkidcompany.com/collections/age-16/products/r36s-portable-game-console-with-linux-open-source-system?branch=Ikoyi`,
       },
@@ -504,10 +504,10 @@ const products = {
       },
 
       {
-        name: "Stanley 40oz Barbie Just Peachy Stainless Steel Vacuum Insulated",
-        price: "N48,250",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/1_org_zoom_1024x1024.jpg?v=1773077654",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/stanley-40oz-barbie-just-peachy-stainless-steel-vacuum-insulated?branch=Ikoyi`,
+        name: "Abacus Brands Bill Nye's Science Squad: Body Lab VR",
+        price: "N95,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91ZL0V7XkuL._AC_SX679_1024x1024.jpg?v=1768401000",
+        url: `https://thelittlebigkidcompany.com/collections/age-16/products/abacus-brands-bill-nyes-science-squad-body-lab-vr?branch=Ikoyi`,
       },
 
       {
