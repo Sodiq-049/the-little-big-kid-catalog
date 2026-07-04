@@ -72,10 +72,10 @@ const products = {
       // },
 
       {
-        name: "Hape Pull-Along Frog Family",
-        price: "N59,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/Hape-Pull-Along-Frog-Family-Hape-Toy-Market-44392297_1024x1024.jpg?v=1763737692",
-        url:`https://thelittlebigkidcompany.com/collections/0-3-years/products/hape-pull-along-frog-family?branch=Lekki`,
+        name: "Mega Bloks Bigger Building Bag",
+        price: "N86,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/SWLR466701_1024x1024.jpg?v=1780494789",
+        url:`https://thelittlebigkidcompany.com/cdn/shop/files/SWLR466701_1024x1024.jpg?v=1780494789?branch=Lekki`,
       },
 
       {
@@ -110,10 +110,10 @@ const products = {
 
     "3-6": [
       {
-        name: "Cocomelon Karaoke Machine for Kids",
-        price: "N46,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/cocomelon-karaoke-machine-for-kids-823143_620x.png?v=1770394892",
-        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/cocomelon-karaoke-machine-for-kids?branch=Lekki`,
+        name: "Hot Focus Fashion Glow Activity",
+        price: "N18,150",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/IMG_0798_760x.jpg?v=1774865501",
+        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/hot-focus-fashion-glow-activity?branch=Lekki`,
       },
 
       {
@@ -125,10 +125,10 @@ const products = {
 
 
       {
-        name: "Na! Na! Na! Surprise Teens Fashion Doll Alaska Frost",
-        price: "N46,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81OJ_Q6YpkL._AC_SY879_620x.jpg?v=1770389978",
-        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/na-na-na-surprise-teens-fashion-doll-alaska-frost?branch=Lekki`,
+        name: "4M Kidzlabs Gamemaker Chess Designer Kit",
+        price: "N56,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/FSG3452_4MKidzLabsGameMakerChessDesignerKit_3_grande_e740053a-d363-4a91-9583-42184613efca_1024x1024.jpg?v=1783125287",
+        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/4m-kidzlabs-gamemaker-chess-designer-kit?branch=Lekki`,
       },
 
       {
@@ -225,10 +225,10 @@ const products = {
       },
 
       {
-        name: "LEXiBOOK - Spy Mission, Spy Night Vision Goggles",
-        price: "N34,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91A9Vl2KzQL._AC_SX679_1024x1024.jpg?v=1774796962",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/lexibook-spy-mission-spy-night-vision-goggles?branch=Lekki`,
+        name: "4M KidzLabs Treasure Island Dig & Play Game, Pirate Treasure Hunt",
+        price: "N23,250",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81dXi5YVWmL._AC_SX425_1024x1024.jpg?v=1783126729",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/4m-kidzlabs-treasure-island-dig-play-game-pirate-treasure-hunt?branch=Lekki`,
       },
 
       {
@@ -239,10 +239,10 @@ const products = {
       },
 
       {
-        name: "4D Cityscape Mini Puzzle (166 Piece), Paris",
-        price: "7,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91JK9iyB9rL._AC_SX679_1024x1024.jpg?v=1770643704",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/4d-cityscape-mini-puzzle-166-piece-paris?branch=Lekki`,
+        name: "4M - STEAM Magnet Exploration",
+        price: "65,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71Cdj3C8gqL._AC_SX679_1024x1024.jpg?v=1783125918",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/4m-steam-magnet-exploration?branch=Lekki`,
       },
 
 
@@ -261,10 +261,10 @@ const products = {
       },
 
       {
-        name: "Mega Construx American Girl Activities - Kanani Ice Shave Stand",
-        price: "N12,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91pF-Z-nOLL._AC_SX679_620x.jpg?v=1770304240",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/mega-construx-american-girl-activities-kanani-ice-shave-stand?branch=Lekki`,
+        name: "4M KidzRobotix – Doodling Robot",
+        price: "N35,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/4M-3280-4M-KidzRobotix-_E2_80_93-Doodling-Robot_1024x1024.jpg?v=1783124390",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/4m-kidzrobotix-doodling-robot?branch=Lekki`,
       },
 
       {
@@ -289,34 +289,34 @@ const products = {
       },
 
       {
-        name: "Spider-Man: Far from Home Deluxe 13-Inch-Scale Web Gear Spider-Man",
+        name: "Hasbro Marvel Spider-Man Maximum Venom, 12-Inch Figure",
         price: "N49,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91SzzQFuefL._SX522_620x.jpg?v=1770291550",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/spider-man-far-from-home-deluxe-13-inch-scale-web-gear-spider-man?branch=Lekki`,
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71F1AHWtXQL._SX679_1024x1024.jpg?v=1770291905",
+        url: `https://thelittlebigkidcompany.com/products/hasbro-marvel-spider-man-maximum-venom-12-inch-figure?_pos=1&_sid=6030d3ba2&_ss=r?branch=Lekki`,
       },
 
       {
-        name: "Lumez Starlight Projector",
-        price: "N32,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/starlight_projector_night_light_20589_tobar_3_1024x1024.jpg?v=1770643977",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/lumez-starlight-projector?branch=Lekki`,
+        name: "HOT WHEELS MONSTER TRUCKS ARENA SMASHERS",
+        price: "N59,750",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/TIGER_540x_88e90b2d-8142-4032-8b78-40c7ab2ea7f0_1024x1024.jpg?v=1782213789",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/hot-wheels-monster-trucks-arena-smashers?branch=Lekki`,
       },
 
       {
-        name: "Abacus Brands Bill Nye's Science Squad: Body Lab VR",
-        price: "95,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91ZL0V7XkuL._AC_SX679_1024x1024.jpg?v=1768401000",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/photo-creator-combi-pack-8-years?branch=Lekki`,
+        name: "Hot Focus Beauty Expression Press On Nails",
+        price: "11,550",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/IMG_0770_1024x1024.jpg?v=1779055769",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/hot-focus-beauty-expression-press-on-nails?branch=Lekki`,
       },
     ],
 
 
     "9-12": [
       {
-        name: "025 Newest LG85 Pro Watch (Pink)",
-        price: "N42,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/H5c87da5f834f42989af199640a6f7c87j_1024x1024.jpg?v=1768565833",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/025-newest-lg85-pro-watch-10-big-screen-smartwatch-serie-x-reloj-inteligente-s10-smart-watch-with-three-straps-pk-z10-pro?branch=Lekki`, 
+        name: "VOD VISUAL Remote Control Car",
+        price: "N74,350",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71bEbecvXqL._AC_SX679_1024x1024.jpg?v=1774857204",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/vod-visual-remote-control-car?branch=Lekki`, 
       },
 
       {
@@ -327,10 +327,10 @@ const products = {
       },
 
       {
-        name: "R36S Portable Game Console with Linux Open Source System",
-        price: "73,850",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61j8ZWhibHL._AC_SX679_1024x1024.jpg?v=1768814485",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/r36s-portable-game-console-with-linux-open-source-system?branch=Lekki`, 
+        name: "4M Kidzlabs Robotic Hand Kit",
+        price: "24,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/910R6xqjZVL._AC_SX679_1024x1024.jpg?v=1783125675",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/4m-kidzlabs-robotic-hand-kit?branch=Lekki`, 
       },
 
       {
@@ -348,10 +348,10 @@ const products = {
       },
 
       {
-        name: "New R36 max Retro Handheld Game Console",
-        price: "N109,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71ReQ5HO0ML._AC_SX679_620x.jpg?v=1768814219",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/new-r36-max-retro-handheld-game-console?branch=Lekki`,
+        name: "4M Kidzmaker Tie Dye Art Kit",
+        price: "N33,750",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/kidzmaker_tie_dye_art_kit_1000x1000_1_1024x1024.jpg?v=1783124600",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/4m-kidzmaker-tie-dye-art-kit?branch=Lekki`,
       },
 
       {
@@ -369,10 +369,10 @@ const products = {
       // },
 
       {
-        name: "025 Newest LG85 Pro Watch 10",
-        price: "N42,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/H5c87da5f834f42989af199640a6f7c87j_620x.jpg?v=1768565833",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/025-newest-lg85-pro-watch-10-big-screen-smartwatch-serie-x-reloj-inteligente-s10-smart-watch-with-three-straps-pk-z10-pro?branch=Lekki`,
+        name: "Logiblocs Smart Talking Bank",
+        price: "N65,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/FSG6810__45021_1024x1024.jpg?v=1783124105",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/logiblocs-smart-talking-bank?branch=Lekki`,
       },
 
       {
@@ -383,10 +383,10 @@ const products = {
       },
 
       {
-        name: "Mega Construx American Girl Activities",
-        price: "12,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91pF-Z-nOLL._AC_SX679_1024x1024.jpg?v=1770304240",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/mega-construx-american-girl-activities-kanani-ice-shave-stand?branch=Lekki`, 
+        name: "4M STEAM Powered Kids Environmental Science Kit",
+        price: "102,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71PiKhgJAvL._AC_SX679_1024x1024.jpg?v=1783123016",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/4m-steam-powered-kids-environmental-science-kit?branch=Lekki`, 
       },
 
       {
@@ -397,10 +397,10 @@ const products = {
       },
 
       {
-        name: "Lexibook Batman Electronic Flipper pinball",
-        price: "N79,950",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81n4Ocf4CpL._AC_SX679_1024x1024.jpg?v=1767797527",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/lexibook-batman-electronic-flipper-pinball?branch=Lekki`,
+        name: "4M KidzRobotix – Doodling Robot",
+        price: "N36,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/4M-3280-4M-KidzRobotix-_E2_80_93-Doodling-Robot_1024x1024.jpg?v=1783124390",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/4m-kidzrobotix-doodling-robot?branch=Lekki`,
       },
 
       {
@@ -420,10 +420,10 @@ const products = {
 
     "12-16": [
       {
-        name: "KMS-254 Latest Parlantes Kimiso Speaker",
-        price: "N145,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/H1f1f0190e90c4d8cb4b098a0b9a0a64cC_1024x1024.png?v=1768823136",
-        url: `https://thelittlebigkidcompany.com/collections/age-16/products/kms-254-latest-parlantes-kimiso-speaker?branch=Lekki`,
+        name: "4M Crystal Growing - Dino Crystal Growing Kit",
+        price: "N45,950",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/9158ZAbbPRL._AC_SX679_1024x1024.jpg?v=1783123892",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/4m-crystal-growing-dino-crystal-growing-kit?branch=Lekki`,
       },
 
       {
@@ -448,10 +448,10 @@ const products = {
       },
 
       {
-        name: "R36S Portable Game Console with Linux Open Source System",
-        price: "N73,850",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61j8ZWhibHL._AC_SX679_620x.jpg?v=1768814485",
-        url: `https://thelittlebigkidcompany.com/collections/age-16/products/r36s-portable-game-console-with-linux-open-source-system?branch=Lekki`,
+        name: "Professor Maxwell's VR Dinosaurs - Virtual Reality Kids Science Kit",
+        price: "N102,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81XkbIWtqpL._AC_SX679_1024x1024.jpg?v=1770644466",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/professor-maxwells-vr-dinosaurs-virtual-reality-kids-science-kit?branch=Lekki`,
       },
 
       {
@@ -483,24 +483,24 @@ const products = {
       },
 
       {
-        name: "Photo Creator Combi Pack",
-        price: "N169,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/367588607623198_620x.webp?v=1768817313",
-        url: `https://thelittlebigkidcompany.com/collections/ages-12/products/photo-creator-combi-pack-8-years?branch=Lekki`, 
+        name: "Skibidi Toilet 24” Titan Figure Titan Speakerman",
+        price: "N130,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/Skibidi-Toilet-24-Titan-Figure-Titan-Speakerman-13-Years_725173de-7784-45a3-b6fd-b74b643d8882.8b5f1e6693e48856ac86dcf80444c1aa_1024x1024.webp?v=1768560312",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/skibidi-toilet-24-titan-figure-titan-speakerman-13-years?branch=Lekki`, 
       },
 
       {
-        name: "Lumez Starlight Projector",
-        price: "N32,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/starlight_projector_night_light_20589_tobar_3_1024x1024.jpg?v=1770643977",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/lumez-starlight-projector?branch=Lekki`, 
+        name: "4M Kidzmaker Tie Dye Art Kit",
+        price: "N33,750",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/kidzmaker_tie_dye_art_kit_1000x1000_1_1024x1024.jpg?v=1783124600",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/4m-kidzmaker-tie-dye-art-kit?branch=Lekki`, 
       },
 
       {
-        name: "New R36 max Retro Handheld Game Console",
-        price: "N109,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71ReQ5HO0ML._AC_SX679_1024x1024.jpg?v=1768814219",
-        url: `https://thelittlebigkidcompany.com/collections/age-16/products/new-r36-max-retro-handheld-game-console?branch=Lekki`,
+        name: "4M Kidz Labs Solar System Mobile Making Kit",
+        price: "N24,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71xr7dajJRL._AC_SX425_1024x1024.jpg?v=1783125469",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/4m-kidz-labs-solar-system-mobile-making-kit?branch=Lekki`,
       },
 
       {
@@ -567,17 +567,17 @@ const products = {
       },
 
       {
-        name: "R36S Portable Game Console with Linux Open Source System",
-        price: "N73,850",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61j8ZWhibHL._AC_SX679_1024x1024.jpg?v=1768814485",
-        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/r36s-portable-game-console-with-linux-open-source-system?branch=Lekki`,
+        name: "Xootz BMW X5 Electric Ride On, Battery Powered Kids Sit On Toy",
+        price: "N845,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61qchSXpaqL._AC_SX679_1024x1024.jpg?v=1748863311",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/xootz-bmw-x5-electric-ride-on-battery-powered-kids-sit-on-toy-steering-wheel-pedal-and-music-aux-3-speed-realistic-speed-control-electric-ride-on-remote-control-car-blue?branch=Lekki`,
       },
 
       {
-        name: "Transformers R.E.D. Optimus Prime 6-inch Action Figure",
-        price: "N25,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/Transformers-R-E-D-Optimus-Prime-Kids-Toy-Action-Figure-for-Boys-and-Girls-4-Only-At-Walmart_48d5ace9-f234-4cae-97a5-b4d20b627a9c.99f624e2c515b0fed5048863cc47e0cc_1024x1024.jpg?v=1770292474",
-        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/transformers-r-e-d-optimus-prime-6-inch-action-figure?branch=Lekki`,
+        name: "Mega Bloks Bigger Building Bag (Pack of 150)",
+        price: "N86,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/SWLR466701_1024x1024.jpg?v=1780494789",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/mega-bloks-bigger-building-bag-pack-of-150?branch=Lekki`,
       },
       
       {
@@ -602,10 +602,10 @@ const products = {
       },
 
       {
-        name: "Electric Ride on Remote Control Car",
-        price: "N845,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61qchSXpaqL._AC_SX679_1024x1024.jpg?v=1748863311",
-        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/xootz-bmw-x5-electric-ride-on-battery-powered-kids-sit-on-toy-steering-wheel-pedal-and-music-aux-3-speed-realistic-speed-control-electric-ride-on-remote-control-car-blue?branch=Lekki`,
+        name: "CUBIKA Wooden Flyring Cars Lacing Toy",
+        price: "N26,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61EWhVGaoQL._AC_SY450_1024x1024.jpg?v=1782215956",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/cubika-wooden-flyring-cars-lacing-toy?branch=Lekki`,
       },
 
       {
@@ -630,10 +630,10 @@ const products = {
       },
 
       {
-        name: "LEXiBOOK - Spy Mission, Spy Night Vision Goggles",
-        price: "N34,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91A9Vl2KzQL._AC_SX679_1024x1024.jpg?v=1774796962",
-        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/lexibook-spy-mission-spy-night-vision-goggles?branch=Lekki`,
+        name: "Mega Bloks CAT Large Dump Truck with Big Building Blocks",
+        price: "N94,250",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71uaAs1NXAL._AC_SX679_1024x1024.jpg?v=1780496108",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/mega-bloks-cat-large-dump-truck-with-big-building-blocks?branch=Lekki`,
       },
     ],
 
@@ -654,17 +654,17 @@ const products = {
       },
 
       {
-        name: "Na Na Na Surprise 11inch Fashion Doll Lila Lamb",
-        price: "N46,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61AD5jC_NSL._AC_SX679_620x.jpg?v=1770388461",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/na-na-na-surprise-11-fashion-doll-lila-lamb?branch=Lekki`,
+        name: "Hot Focus Fashion Glow Activity",
+        price: "N18,150",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/IMG_0798_1024x1024.jpg?v=1774865501",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/hot-focus-fashion-glow-activity?branch=Lekki`,
       },
 
       {
-        name: "STEAM Kaleidescope Kit",
-        price: "N18,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81ozBFgDLsS._AC_SL1500_1080x_626f63a5-2819-4c62-8ffb-79ddb5b16bf0_1024x1024.jpg?v=1768820764",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/steam-kaleidescope-kit?branch=Lekki`,
+        name: "4M Kidzmaker Tie Dye Art Kit",
+        price: "N33,750",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/kidzmaker_tie_dye_art_kit_1000x1000_1_1024x1024.jpg?v=1783124600",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/4m-kidzmaker-tie-dye-art-kit?branch=Lekki`,
       },
 
       {
@@ -675,10 +675,10 @@ const products = {
       },
 
       {
-        name: "Na Na Na Surprise Minis Series 2-4inch Fashion Doll",
-        price: "N14,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91zvm--zsTL._AC_SL400_620x.jpg?v=1770303690",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/na-na-na-surprise-minis-series-2-4-fashion-doll?branch=Lekki`,
+        name: "Kid Made Modern Craft Kit - Crazy Contraption - Arts and Crafts for Kids",
+        price: "N34,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81QEPdO573L._AC_SY450_1024x1024.jpg?v=1782212592",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/kid-made-modern-craft-kit-crazy-contraption-arts-and-crafts-for-kids?branch=Lekki`,
       },
 
       {
@@ -689,10 +689,10 @@ const products = {
       },
 
       {
-        name: "Bubi-Lab | Lab Playset to Create and Decorate Bubiloons Balloons",
-        price: "N33,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/7106hKLsG2L._AC_SX679_1024x1024.jpg?v=1770304013",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/bubi-lab-lab-playset-to-create-and-decorate-bubiloons-balloons?branch=Lekki`,
+        name: "Disney Junior:19” Vehicle Hauler - Minnie Mouse - Light & Sounds Toy Truck Set",
+        price: "N86,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/6d9c2e1d-1f2f-4cf4-a5cf-68eefb0f623c.6020864b077c09fbac00f1f0d4c6edee_1024x1024.jpg?v=1780498797",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/disney-junior-19-vehicle-hauler-minnie-mouse-light-sounds-toy-truck-set?branch=Lekki`,
       },
 
       {
@@ -703,10 +703,10 @@ const products = {
       },
 
       {
-        name: "Mega Construx American Girl Activities - Kanani Ice Shave Stand",
-        price: "N12,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91pF-Z-nOLL._AC_SX679_1024x1024.jpg?v=1770304240",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/mega-construx-american-girl-activities-kanani-ice-shave-stand?branch=Lekki`,
+        name: "My Storybook Art Kit - Unicorns & Princesses",
+        price: "N34,950",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/MSAK-Unicorns_Princesses1_1024x1024.jpg?v=1782210131",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/my-storybook-art-kit-unicorns-princesses?branch=Lekki`,
       },
 
       {
@@ -738,10 +738,10 @@ const products = {
       },
 
       {
-        name: "Fur Real - Lil' Wilds Posey the Penguin",
-        price: "N72,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/5010994110239_940x_187b85eb-8962-4593-a192-610a985fd838_1024x1024.jpg?v=1770643157",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/fur-real-lil-wilds-posey-the-penguin?branch=Lekki`,
+        name: "MEGA BLOKS Big Building Bag Toddler Block Toys with 80 Pieces",
+        price: "N59,450",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/MEGA-BLOKS-Big-Building-Bag-Toddler-Block-Toys-with-80-Pieces_8189d245-24c4-4eca-a706-21ef4e267b87.bdf3c441458a67cac45c97c9f1f34402_1024x1024.jpg?v=1780494454",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/mega-bloks-big-building-bag-toddler-block-toys-with-80-pieces?branch=Lekki`,
       },
     ],
   }
