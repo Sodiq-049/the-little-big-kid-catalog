@@ -75,14 +75,14 @@ const products = {
         name: "Mega Bloks Bigger Building Bag",
         price: "N86,500",
         img: "https://thelittlebigkidcompany.com/cdn/shop/files/SWLR466701_1024x1024.jpg?v=1780494789",
-        url:`https://thelittlebigkidcompany.com/cdn/shop/files/SWLR466701_1024x1024.jpg?v=1780494789?branch=Lekki`,
+        url:`https://thelittlebigkidcompany.com/collections/girls-gift/products/mega-bloks-bigger-building-bag-pack-of-150?_pos=6&_sid=67c281140&_ss=r?branch=Lekki`,
       },
 
       {
-        name: "Baby Walker",
-        price: "N105,750",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/TKC409A_1024x1024.jpg?v=1750860180",
-        url:`https://thelittlebigkidcompany.com/collections/0-3-years/products/baby-walker?branch=Lekki`,
+        name: "CUBIKA Wooden Flyring Cars Lacing Toy",
+        price: "N26,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61EWhVGaoQL._AC_SY450_1024x1024.jpg?v=1782215956",
+        url:`https://thelittlebigkidcompany.com/collections/0-3-years/products/cubika-wooden-flyring-cars-lacing-toy?branch=Lekki`,
       },
 
       {
@@ -117,10 +117,10 @@ const products = {
       },
 
       {
-        name: "HoloToyz PAW Patrol AR Jigsaw Puzzle",
-        price: "N39,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/HoloToyzJigsawsPuzzle_PawPetrolArtboard1copy2_1024x1024.jpg?v=1767784745",
-        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/holotoyz-paw-patrol-ar-jigsaw-puzzle?branch=Lekki`,
+        name: "Baking Set - Rainbow Fairy",
+        price: "N52,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/49P6061_600x_4e70e0ef-75eb-4ac1-9fe6-2299aa5d494d_1024x1024.png?v=1785935117",
+        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/baking-set-rainbow-fairy?branch=Lekki`,
       },
 
 
@@ -132,10 +132,10 @@ const products = {
       },
 
       {
-        name: "VTech 3-in-1 Mow and Grow Tractor, Ride-On Tractor, Push-Along Mowert",
-        price: "N180,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81EilWxR_mL._AC_SL1500_620x.jpg?v=1770393702",
-        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/vtech-3-in-1-mow-and-grow-tractor-ride-on-tractor-push-along-mower?branch=Lekki`,
+        name: "Hot Wheels Monster Trucks Arena Smashers Playset",
+        price: "N68,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/1-23_1024x1024.jpg?v=1782214058",
+        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/hot-wheels-monster-trucks-arena-smashers-playset?branch=Lekki`,
       },
 
       {
@@ -160,10 +160,10 @@ const products = {
       },
 
       {
-        name: "Lexibook Disney Frozen Electronic Keyboard with Light Effects4",
-        price: "N75,450",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/41pCxPWuwkL._AC_SX679_1024x1024.jpg?v=1773758785",
-        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/lexibook-disney-frozen-electronic-keyboard-with-light-effects?branch=Lekki`,
+        name: "4M Mould & Paint Racers",
+        price: "N19,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/fv7j8s7m_R_Z001A_1024x1024.webp?v=1785924240",
+        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/4m-mould-paint-racers?branch=Lekki`,
       },
 
       {
@@ -174,10 +174,10 @@ const products = {
       },
 
       {
-        name: "TMG Handheld Game Video Game",
-        price: "N24,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/41xLaHtuS5L_620x.jpg?v=1768815024",
-        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/tmg-handheld-game-video-game-8-bit-520-in-1-classic-retro-games-handheld-gamepad-game-console-2-5-inch-screen-rechargeable-av-tv-outblue?branch=Lekki`,
+        name: "Floss & Rock construction play box",
+        price: "N59,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/09d9baeb3f22db2e5f400fc2dc1229988888ce7932893fc49c7a37f3571cf381_1024x1024.png?v=1785935618",
+        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/floss-rock-construction-play-box?branch=Lekki`,
       },
 
       {
@@ -275,10 +275,10 @@ const products = {
       },
 
        {
-        name: "Headphones Cat Ear Wireless Headphones, Led Light Up Bluetooth Headphones",
-        price: "N36,950",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/1_54fd1f40-1f3c-4c4f-aab0-d6d877f1f9da_620x.jpg?v=1768818323",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/headphones-cat-ear-wireless-headphones-led-light-up-bluetooth-headphones?branch=Lekki`,
+        name: "4M - STEAM Magnet Exploration",
+        price: "N65,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71Cdj3C8gqL._AC_SX679_1024x1024.jpg?v=1783125918",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/4m-steam-magnet-exploration?branch=Lekki`,
       },
 
       {
@@ -289,10 +289,10 @@ const products = {
       },
 
       {
-        name: "Hasbro Marvel Spider-Man Maximum Venom, 12-Inch Figure",
-        price: "N49,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71F1AHWtXQL._SX679_1024x1024.jpg?v=1770291905",
-        url: `https://thelittlebigkidcompany.com/products/hasbro-marvel-spider-man-maximum-venom-12-inch-figure?_pos=1&_sid=6030d3ba2&_ss=r?branch=Lekki`,
+        name: "4M Kidzlabs Robotic Hand Kit",
+        price: "N24,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/910R6xqjZVL._AC_SX679_1024x1024.jpg?v=1783125675",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/4m-kidzlabs-robotic-hand-kit?branch=Lekki`,
       },
 
       {
@@ -320,10 +320,10 @@ const products = {
       },
 
       {
-        name: "Mostop Remote Control Tank",
-        price: "102,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71gLSyQkCQL._AC_SX679_1024x1024.jpg?v=1774859656",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/mostop-remote-control-tank?branch=Lekki`, 
+        name: "Hot Focus Sunny Cutie Crossbody",
+        price: "42,350",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/Screenshot-8_fixed_1024x1024.png?v=1776701815",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/hot-focus-sunny-cutie-crossbody?branch=Lekki`, 
       },
 
       {
@@ -334,10 +334,10 @@ const products = {
       },
 
       {
-        name: "Abacus Brands Bill Nye's VR Science Kit and VR Space Lab",
-        price: "N189,950",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61qtQ61ydQL._SX679_1024x1024.jpg?v=1768401873",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/abacus-brands-bill-nyes-vr-science-kit-and-vr-space-lab?branch=Lekki`,
+        name: "4M 5576 Table Top Robot",
+        price: "N36,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71S1lyLXJDL._AC_SX679_1024x1024.jpg?v=1783123527",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/4m-5576-table-top-robot?branch=Lekki`,
       },
 
       {
@@ -376,10 +376,10 @@ const products = {
       },
 
       {
-        name: "Party2-Go Karaoke Mic Disco Ball Combo, Silver Bling",
-        price: "N99,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/dkrfiopx7wpcd9nixes7_1024x1024.jpg?v=1755098029",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/party2-go-karaoke-mic-disco-ball-combo-silver-bling?branch=Lekki`, 
+        name: "Kid Made Modern Craft Kit - Crazy Contraption - Arts and Crafts for Kids",
+        price: "N34,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81QEPdO573L._AC_SY450_1024x1024.jpg?v=1782212592",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/kid-made-modern-craft-kit-crazy-contraption-arts-and-crafts-for-kids?branch=Lekki`, 
       },
 
       {
@@ -441,10 +441,10 @@ const products = {
       },
 
       {
-        name: "Headphones Cat Ear Wireless Headphones",
-        price: "N36,950",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/1_54fd1f40-1f3c-4c4f-aab0-d6d877f1f9da_1024x1024.jpg?v=1768818323",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/headphones-cat-ear-wireless-headphones-led-light-up-bluetooth-headphones?branch=Lekki`,
+        name: "45cm Keeleco Harry Bear- Two Colours",
+        price: "N59,750",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/SE3322-cr-1000x1000_1024x1024.jpg?v=1743545344",
+        url: `https://thelittlebigkidcompany.com/collections/ages-12/products/45cm-keeleco-harry-bear-two-colours?branch=Lekki`,
       },
 
       {
@@ -504,17 +504,17 @@ const products = {
       },
 
       {
-        name: "Abacus Brands Bill Nye's Science Squad: Body Lab VR",
-        price: "N95,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91ZL0V7XkuL._AC_SX679_1024x1024.jpg?v=1768401000",
-        url: `https://thelittlebigkidcompany.com/collections/age-16/products/abacus-brands-bill-nyes-science-squad-body-lab-vr?branch=Lekki`,
+        name: "4M KidzLabs Treasure Island Dig & Play Game, Pirate Treasure Hunt",
+        price: "N23,250",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81dXi5YVWmL._AC_SX425_1024x1024.jpg?v=1783126729",
+        url: `https://thelittlebigkidcompany.com/collections/ages-12/products/4m-kidzlabs-treasure-island-dig-play-game-pirate-treasure-hunt?branch=Lekki`,
       },
 
       {
-        name: "B15 Multifunction Mini Home Wireless Speaker",
-        price: "N98,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/B15-Multifunction-Mini-Home-Wireless-Speaker-Portable-Bluetooth-Small-Speaker_1024x1024.webp?v=1768563794",
-        url: `https://thelittlebigkidcompany.com/collections/ages-12/products/b15-multifunction-mini-home-wireless-speaker?branch=Lekki`,
+        name: "Foil Fun: Girl Power No Mess Magnetic Art Kit",
+        price: "N34,9500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/FoilFun_GirlPower1_1024x1024.jpg?v=1782206551",
+        url: `https://thelittlebigkidcompany.com/collections/ages-12/products/foil-fun-girl-power-no-mess-magnetic-art-kit-ages-7-13?branch=Lekki`,
       },
 
       {
@@ -546,10 +546,10 @@ const products = {
       },
 
       {
-        name: "Click to see full view Skillmatics Preschool Learning Activity",
-        price: "N35,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81o3n-JnpHL._SX679_1024x1024.jpg?v=1770287623",
-        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/click-to-see-full-view-skillmatics-preschool-learning-activity-search-and-find-flashlight-magic?branch=Lekki`,
+        name: "Floss & Rock 12pc Shaped Jigsaw Puzzle - Construction",
+        price: "N13,850",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/52P6271_800x_e55f8292-14e5-4503-942d-2d61eefc0e18_1024x1024.png?v=1784119546",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/floss-rock-12pc-shaped-jigsaw-puzzle-construction?branch=Lekki`,
       },
 
       {
@@ -616,10 +616,10 @@ const products = {
       },
 
       {
-        name: "Hasbro Marvel Spider-Man Maximum Venom, 12-Inch Figure",
-        price: "N49,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71F1AHWtXQL._SX679_1024x1024.jpg?v=1770291905",
-        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/hasbro-marvel-spider-man-maximum-venom-12-inch-figure?branch=Lekki`,
+        name: "4M Mould & Paint Racers",
+        price: "N19,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/fv7j8s7m_R_Z001A_1024x1024.webp?v=1785924240",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/4m-mould-paint-racers?branch=Lekki`,
       },
 
       {
@@ -630,10 +630,10 @@ const products = {
       },
 
       {
-        name: "Mega Bloks CAT Large Dump Truck with Big Building Blocks",
-        price: "N94,250",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71uaAs1NXAL._AC_SX679_1024x1024.jpg?v=1780496108",
-        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/mega-bloks-cat-large-dump-truck-with-big-building-blocks?branch=Lekki`,
+        name: "4M Kidzlabs Robotic Hand Kit",
+        price: "N24,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/910R6xqjZVL._AC_SX679_1024x1024.jpg?v=1783125675",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/4m-kidzlabs-robotic-hand-kit?branch=Lekki`,
       },
     ],
 
@@ -682,10 +682,10 @@ const products = {
       },
 
       {
-        name: "Headphones Cat Ear Wireless Headphones, Led Light Up Bluetooth Headphones",
-        price: "N36,950",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/1_54fd1f40-1f3c-4c4f-aab0-d6d877f1f9da_1024x1024.jpg?v=1768818323",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/headphones-cat-ear-wireless-headphones-led-light-up-bluetooth-headphones?branch=Lekki`,
+        name: "My Playhouse - Best Friends",
+        price: "N68,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/51P6208_1_600x_3d32b6ab-90c3-46db-a549-478c5e74eead_1024x1024.png?v=1785929330",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/my-playhouse-best-friends?branch=Lekki`,
       },
 
       {
@@ -731,10 +731,10 @@ const products = {
       },
 
       {
-        name: "Abacus Brands Bill Nye's Science Squad: Body Lab VR",
-        price: "N95,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/91ZL0V7XkuL._AC_SX679_1024x1024.jpg?v=1768401000",
-        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/abacus-brands-bill-nyes-science-squad-body-lab-vr?branch=Lekki`,
+        name: "Floss and Rock Dolls House Musical Tea Set, 9 Pieces",
+        price: "N55,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61s9dwVrWzL._AC_SX679_1024x1024.jpg?v=1785926633",
+        url: `https://thelittlebigkidcompany.com/collections/girls-gift/products/floss-and-rock-dolls-house-musical-tea-set-9-pieces?branch=Lekki`,
       },
 
       {
