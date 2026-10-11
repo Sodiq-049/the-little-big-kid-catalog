@@ -16,10 +16,10 @@ const products = {
       },
 
       {
-        name: "SmartMax My First Plane Toy Vehicle",
-        price: "26,750",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71_WyYHUSGL._AC_SX679_1024x1024.jpg?v=1759155679",
-        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/smartmax-my-first-plane-toy-vehicle-dynamic-stem-building-set?branch=Ikoyi`,
+        name: "Care Bears Dream Bright Bear, 35 cm",
+        price: "38,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71jq7H2A5PL._AC_SL1500_1024x1024.jpg?v=1780487766",
+        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/care-bears-dream-bright-bear-35-cm-grosses-pluschtier?branch=Ikoyi`,
       },
 
       {
@@ -43,12 +43,12 @@ const products = {
         url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/fisher-price-revolve-swing?branch=Ikoyi`,
       },
 
-      // {
-      //   name: "Boneca Cry Babies",
-      //   price: "48,000",
-      //   img: "https://thelittlebigkidcompany.com/cdn/shop/files/196286-1200-auto_1024x1024.jpg?v=1763825600",
-      //   url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/boneca-cry-babies-fantasy-hannah-multikids?branch=Ikoyi`,
-      // },
+      {
+        name: "4-in-1 Tricycle with Push Handle & Training Wheels - Ocean",
+        price: "195,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/4-in-1TricyclewithPushHandle_TrainingWheels-ocean-low-res-91_1024x1024.jpg?v=1791231820",
+        url: `https://thelittlebigkidcompany.com/collections/0-3-years/products/4-in-1-tricycle-with-push-handle-training-wheels-ocean?branch=Ikoyi`,
+      },
 
       {
         name: "Sago Mini , 2-in-1 Fold Up Pillow Playset",
@@ -195,10 +195,10 @@ const products = {
       },
 
       {
-        name: "SX6 Handheld Retro Games Console",
-        price: "N57,250",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/51DYbO7QKlL._AC_SX679_1024x1024.jpg?v=1768814720",
-        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/x6-handheld-retro-games-console?branch=Ikoyi`,
+        name: "Xootz BMW X5 Electric Ride On",
+        price: "N845,000",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61qchSXpaqL._AC_SX679_1024x1024.jpg?v=1748863311",
+        url: `https://thelittlebigkidcompany.com/collections/3-6-years/products/xootz-bmw-x5-electric-ride-on-battery-powered-kids-sit-on-toy-steering-wheel-pedal-and-music-aux-3-speed-realistic-speed-control-electric-ride-on-remote-control-car-blue?branch=Ikoyi`,
       },
     ],
 
@@ -247,10 +247,10 @@ const products = {
 
 
       {
-        name: "Power Kid bilingual French and English educational laptop",
-        price: "N91,500",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/3380743085852_1_1024x1024.png?v=1759933473",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/power-kid-bilingual-french-and-english-educational-laptop?branch=Ikoyi`,
+        name: "Kidz Maker Fairy Light Bulb",
+        price: "N30,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/C4772_1__65214_1024x1024.jpg?v=1783521307",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/kidz-maker-fairy-light-bulb?branch=Ikoyi`,
       },
 
       {
@@ -275,10 +275,10 @@ const products = {
       },
 
        {
-        name: "4M - STEAM Magnet Exploration",
-        price: "N65,000",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/71Cdj3C8gqL._AC_SX679_1024x1024.jpg?v=1783125918",
-        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/4m-steam-magnet-exploration?branch=Ikoyi`,
+        name: "Slide Pocket Shot Digital Camera and Video Recorder",
+        price: "N64,850",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/61EEPMFngOL._AC_SY450_1024x1024.jpg?v=1790523929",
+        url: `https://thelittlebigkidcompany.com/collections/6-9-years/products/slide-pocket-shot-digital-camera-and-video-recorder?branch=Ikoyi`,
       },
 
       {
@@ -361,12 +361,12 @@ const products = {
         url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/n-gear-the-flash-1210?branch=Ikoyi`,
       },
 
-      // {
-      //   name: "Peachy Stainless Steel Vacuum Insulated",
-      //   price: "N48,250",
-      //   img: "https://thelittlebigkidcompany.com/cdn/shop/files/1_org_zoom_1024x1024.jpg?v=1773077654",
-      //   url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/stanley-40oz-barbie-just-peachy-stainless-steel-vacuum-insulated?branch=Ikoyi`,
-      // },
+      {
+        name: "Creative Creator DIY Flower Mirror Kit",
+        price: "N34,500",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/Screenshot2026-02-08at11.57.55AM_1024x1024.png?v=1791211361",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/creative-creator-diy-flower-mirror-kit?branch=Ikoyi`,
+      },
 
       {
         name: "Logiblocs Smart Talking Bank",
@@ -390,10 +390,10 @@ const products = {
       },
 
       {
-        name: "Abacus Brands Penn & Teller VR Magic Lab",
-        price: "N125,950",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81nBgcLiAJL._AC_SX679_620x.jpg?v=1768403412",
-        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/abacus-brands-penn-teller-vr-magic-lab?branch=Ikoyi`,
+        name: "Coby LED Karaoke Microphone, Wireless Mic",
+        price: "N34,250",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81aIXxlTJEL._AC_SY355_1024x1024.jpg?v=1790524791",
+        url: `https://thelittlebigkidcompany.com/collections/9-12-years/products/coby-led-karaoke-microphone-wireless-mic?branch=Ikoyi`,
       },
 
       {
@@ -623,10 +623,10 @@ const products = {
       },
 
       {
-        name: "Whip Flash Buggy - Assorted",
-        price: "N69,250",
-        img: "https://thelittlebigkidcompany.com/cdn/shop/files/81791_MTRC_WhipFlash_GRN_PKG_1_1024x1024.jpg?v=1768559006",
-        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/whip-flash-buggy-assorted?branch=Ikoyi`,
+        name: "Level Up Puzzles Level 3 - Everyday Heroes (3 puzzles)",
+        price: "N44,650",
+        img: "https://thelittlebigkidcompany.com/cdn/shop/files/coco-village-casse-tete-et-roches-zylo-high-res-95_1024x1024.jpg?v=1791226368",
+        url: `https://thelittlebigkidcompany.com/collections/boys-gift/products/level-up-puzzles-level-3-everyday-heroes-3-puzzles?branch=Ikoyi`,
       },
 
       {
