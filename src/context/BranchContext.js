@@ -10,21 +10,15 @@ export const WHATSAPP_NUMBERS = {
 
 
 export const BranchProvider = ({ children }) => {
-  const [selectedBranch, setSelectedBranch] = useState(null);
-  const [showModal, setShowModal] = useState(true);
+  // Read the saved branch on the first render so a page refresh (e.g. on /shop-by-age/3)
+  // stays on the same page instead of being redirected home by BranchGuard
+  const [selectedBranch, setSelectedBranch] = useState(() => sessionStorage.getItem('selectedBranch'));
+  const [showModal, setShowModal] = useState(() => !sessionStorage.getItem('selectedBranch'));
 
   useEffect(() => {
   const urlParams = new URLSearchParams(window.location.search);
   if (urlParams.get('reset') === 'true') {
     localStorage.removeItem('selectedBranch');
-  }
-
-  const stored = sessionStorage.getItem('selectedBranch');
-  if (stored) {
-    setSelectedBranch(stored);
-    setShowModal(false);
-  } else {
-    setShowModal(true);
   }
     }, []);
 

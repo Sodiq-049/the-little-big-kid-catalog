@@ -4,21 +4,14 @@ import ProductCard from '../components/ProductCard';
 import './DetailPage.css';
 import { BranchContext } from '../context/BranchContext';
 
-import productsLekki from '../data/productsLekki';
-import productsIkoyi from '../data/productsIkoyi';
-
 const seeMoreLinks = {
   boys: "https://thelittlebigkidcompany.com/collections/boys-gift",
   girls: "https://thelittlebigkidcompany.com/collections/girls-gift"
 };
 
-function GenderDetail() {
+function GenderDetail({ products }) {
   const { gender } = useParams();
   const { selectedBranch } = useContext(BranchContext);
-
-  // Load products based on branch
-  const products =
-    selectedBranch === "Ikoyi" ? productsIkoyi : productsLekki;
 
   // FIXED: use the correct key
   const genderItems = products.genderGroups[gender] || [];
@@ -29,7 +22,7 @@ function GenderDetail() {
 
       <div className="product-grid">
         {genderItems.map((item, index) => (
-          <ProductCard key={index} product={item} />
+          <ProductCard key={item._id || index} product={item} />
         ))}
       </div>
 

@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BranchProvider } from './context/BranchContext';
+import { ProductsProvider } from './context/ProductsContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BranchProvider>
-     <App />
+      <ProductsProvider>
+        <App />
+      </ProductsProvider>
     </BranchProvider>
   </React.StrictMode>
 );

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import ShopByAge from './pages/ShopByAge';
 import GenderGifts from './pages/GenderGifts';
@@ -6,23 +6,34 @@ import AgeDetail from './pages/AgeDetail';
 import GenderDetail from './pages/GenderDetail';
 import BranchGuard from './components/BranchGuard';
 import Navbar from './components/Navbar';
-
-import productsLekki from './data/productsLekki';
-import productsIkoyi from './data/productsIkoyi';
+import AdminLogin from './admin/AdminLogin';
+import AdminDashboard from './admin/AdminDashboard';
+import AddProduct from './admin/AddProduct';
+import ProductList from './admin/ProductList';
 
 import { useContext } from 'react';
-import { BranchContext } from './context/BranchContext';
+import { ProductsContext } from './context/ProductsContext';
 
-function App() {
-  const { selectedBranch } = useContext(BranchContext);
+// Branch check plus loading/error states for pages that show products
+function CatalogPage({ children }) {
+  const { loading, error } = useContext(ProductsContext);
 
-  // Choose correct product set
-  const products =
-    selectedBranch === "Ikoyi" ? productsIkoyi : productsLekki;
+  let content = children;
+  if (error) content = <p style={{ padding: 30, textAlign: 'center' }}>{error}</p>;
+  else if (loading) content = <p style={{ padding: 30, textAlign: 'center' }}>Loading products…</p>;
+
+  return <BranchGuard>{content}</BranchGuard>;
+}
+
+function AppRoutes() {
+  const { products } = useContext(ProductsContext);
+  const { pathname } = useLocation();
+  const isAdmin = pathname.startsWith('/admin');
 
   return (
-    <Router>
-      <Navbar />
+    <>
+      {/* The admin area has its own header and doesn't need a branch */}
+      {!isAdmin && <Navbar />}
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -30,39 +41,54 @@ function App() {
         <Route
           path="/shop-by-age"
           element={
-            <BranchGuard>
+            <CatalogPage>
               <ShopByAge products={products} />
-            </BranchGuard>
+            </CatalogPage>
           }
         />
 
         <Route
           path="/shop-by-age/:age"
           element={
-            <BranchGuard>
+            <CatalogPage>
               <AgeDetail products={products} />
-            </BranchGuard>
+            </CatalogPage>
           }
         />
 
         <Route
           path="/gender-gifts"
           element={
-            <BranchGuard>
+            <CatalogPage>
               <GenderGifts products={products} />
-            </BranchGuard>
+            </CatalogPage>
           }
         />
 
         <Route
           path="/gender-gifts/:gender"
           element={
-            <BranchGuard>
+            <CatalogPage>
               <GenderDetail products={products} />
-            </BranchGuard>
+            </CatalogPage>
           }
         />
+
+        <Route path="/admin/login" element={<AdminLogin />} />
+        <Route path="/admin" element={<AdminDashboard />}>
+          <Route index element={<Navigate to="add-product" replace />} />
+          <Route path="add-product" element={<AddProduct />} />
+          <Route path="products" element={<ProductList />} />
+        </Route>
       </Routes>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppRoutes />
     </Router>
   );
 }

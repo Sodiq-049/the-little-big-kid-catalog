@@ -54,7 +54,7 @@ function GenderGifts({ products }) {
 
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 20, marginTop: 20 }}>
         {genderProducts.map((item, i) => (
-          <ProductCard key={i} product={item} />
+          <ProductCard key={item._id || i} product={item} />
         ))}
       </div>
 

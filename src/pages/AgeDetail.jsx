@@ -1,52 +1,46 @@
 import React, { useContext } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, Navigate } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import './DetailPage.css';
 import { BranchContext } from '../context/BranchContext';
+import { findAgeGroup } from '../api';
 
-// Import both product lists
-import productsLekki from '../data/productsLekki';
-import productsIkoyi from '../data/productsIkoyi';
-
-const seeMoreLinks = {
-  "0-3": "https://thelittlebigkidcompany.com/collections/0-3-years",
-  "3-6": "https://thelittlebigkidcompany.com/collections/3-6-years",
-  "6-9": "https://thelittlebigkidcompany.com/collections/6-9-years",
-  "9-12": "https://thelittlebigkidcompany.com/collections/9-12-years",
-  "12-16": "https://thelittlebigkidcompany.com/collections/age-16",
-};
-
-function AgeDetail() {
+function AgeDetail({ products }) {
   const { age } = useParams();
   const { selectedBranch } = useContext(BranchContext);
 
-  // Load products based on branch
-  const products =
-    selectedBranch === "Ikoyi" ? productsIkoyi : productsLekki;
+  const ageGroup = findAgeGroup(age);
+
+  // Unknown age in the URL (e.g. an old /shop-by-age/0-3 link) → back to the age list
+  if (!ageGroup) return <Navigate to="/shop-by-age" replace />;
 
   const ageItems = products.ageGroups[age] || [];
 
   return (
     <div className="detail-page-container">
-      <h2>Gifts for Age {age}</h2>
+      <h2>{ageGroup.key === 'adult' ? 'Gifts for Adults' : `Gifts for ${ageGroup.label}`}</h2>
+
+      {ageItems.length === 0 && <p>No products yet for this age. Please check back soon!</p>}
 
       <div className="product-grid">
         {ageItems.map((item, index) => (
-          <ProductCard key={index} product={item} />
+          <ProductCard key={item._id || index} product={item} />
         ))}
       </div>
 
       <div className="detail-links">
         <Link to="/shop-by-age" className="back-link">← Go Back</Link>
 
-        <a
-          href={`${seeMoreLinks[age]}?branch=${selectedBranch}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="see-more-link"
-        >
-          See More →
-        </a>
+        {ageGroup.seeMore && (
+          <a
+            href={`${ageGroup.seeMore}?branch=${selectedBranch}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="see-more-link"
+          >
+            See More →
+          </a>
+        )}
       </div>
     </div>
   );

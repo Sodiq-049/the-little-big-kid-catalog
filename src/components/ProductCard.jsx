@@ -1,5 +1,17 @@
 import React, { useState, useContext } from 'react';
 import { BranchContext } from '../context/BranchContext';
+import { imgSrc } from '../api';
+
+// Products shared by both branches store the website link without a branch, so add the current one
+const withBranch = (url, branch) => {
+  try {
+    const u = new URL(url);
+    if (branch) u.searchParams.set('branch', branch);
+    return u.toString();
+  } catch {
+    return url;
+  }
+};
 
 function ProductCard({ product }) {
   const { selectedBranch } = useContext(BranchContext);
@@ -12,10 +24,12 @@ function ProductCard({ product }) {
   };
 
   const phone = whatsappNumbers[selectedBranch];
+  const image = imgSrc(product.img);
+  const websiteLink = product.url ? withBranch(product.url, selectedBranch) : null;
 
   // WhatsApp message with item details
   const whatsappMessage = encodeURIComponent(
-    `Hello! I am interested in this item:\n\n${product.name}\nPrice: ${product.price}\n\nImage: ${product.img}`
+    `Hello! I am interested in this item:\n\n${product.name}\nPrice: ${product.price}${product.wrappingPrice ? `\nWrapping: ${product.wrappingPrice}` : ''}\n\nImage: ${image}`
   );
 
   const whatsappLink = `https://wa.me/${phone}?text=${whatsappMessage}`;
@@ -28,7 +42,7 @@ function ProductCard({ product }) {
         style={{ ...cardStyle, cursor: 'pointer' }}
       >
         <div style={textStyle}>
-          <img src={product.img} alt={product.name} style={imageStyle} />
+          <img src={image} alt={product.name} style={imageStyle} />
           <div><strong>{product.name}</strong></div>
           <div style={{ color: '#555', marginTop: 4 }}>{product.price}</div>
         </div>
@@ -43,11 +57,16 @@ function ProductCard({ product }) {
             <button style={closeBtn} onClick={() => setShowModal(false)}>✖</button>
 
             <h3>{product.name}</h3>
-            <img src={product.img} alt={product.name} style={modalImage} />
+            <img src={image} alt={product.name} style={modalImage} />
 
             <p style={{ marginTop: 10, fontSize: 16 }}>
               {product.price}
             </p>
+            {product.wrappingPrice && (
+              <p style={{ marginTop: 4, fontSize: 14, color: '#555' }}>
+                Gift wrapping: {product.wrappingPrice}
+              </p>
+            )}
 
             {/* BUTTONS */}
             <div style={{ marginTop: 20 }}>
@@ -55,9 +74,11 @@ function ProductCard({ product }) {
                 Continue Order on WhatsApp
               </a>
 
-              <a href={product.url} target="_blank" rel="noopener noreferrer" style={checkoutBtn}>
-                Checkout on Website
-              </a>
+              {websiteLink && (
+                <a href={websiteLink} target="_blank" rel="noopener noreferrer" style={checkoutBtn}>
+                  Checkout on Website
+                </a>
+              )}
             </div>
           </div>
         </div>
