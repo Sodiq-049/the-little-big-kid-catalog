@@ -4,35 +4,11 @@ import { BranchContext } from '../context/BranchContext';
 import { Link } from 'react-router-dom';
 
 function Home() {
-  const { showModal, setSelectedBranch } = useContext(BranchContext);
-
-  const handleSelectBranch = (branch) => {
-    localStorage.setItem('selectedBranch', branch);
-    setSelectedBranch(branch);
-  };
+  // The "Select Your Store Location" popup lives in Navbar so it works on every page
+  const { showModal } = useContext(BranchContext);
 
   return (
     <div className="home-container">
-      {showModal && (
-        <div className="modal-overlay">
-          <div className="modal-content">
-            <h2>Select Your Store Location</h2>
-            <button
-              onClick={() => handleSelectBranch('Lekki')}
-              className="branch-btn lekki"
-            >
-              Lekki Branch
-            </button>
-            <button
-              onClick={() => handleSelectBranch('Ikoyi')}
-              className="branch-btn ikoyi"
-            >
-              Ikoyi Branch
-            </button>
-          </div>
-        </div>
-      )}
-
       {!showModal && (
         <>
           <img

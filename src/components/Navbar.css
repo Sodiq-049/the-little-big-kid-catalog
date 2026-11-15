@@ -78,6 +78,21 @@
   object-fit: contain;
 }
 
+.branch-modal {
+  position: relative;
+  color: #222;
+}
+
+/* Admin icon in the top right corner of the location popup */
+.admin-icon-btn--modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #d6e6ff;
+}
+
 .admin-prompt {
   color: #222;
   min-width: 280px;
