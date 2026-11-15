@@ -51,7 +51,7 @@ function AdminDashboard() {
 
       <footer className="admin-footer">
         <a href="https://www.flaticon.com/free-icons/admin-panel" title="admin panel icons" target="_blank" rel="noopener noreferrer">
-          Admin panel icons created by SBTS2018 - Flaticon
+          Admin panel icons created by OK.dev
         </a>
       </footer>
     </div>

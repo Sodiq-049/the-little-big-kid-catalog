@@ -175,7 +175,7 @@
   color: #888;
 }
 
-.form-field input,
+.form-field input:not([type='checkbox']),
 .form-field select,
 .list-filters input,
 .list-filters select {
@@ -203,16 +203,18 @@
 }
 
 .age-options {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
   gap: 8px;
 }
 
 .age-option {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 8px 12px;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 20px;
   font-size: 14px;
@@ -229,6 +231,9 @@
 }
 
 .age-option input {
+  flex: none;
+  width: 18px;
+  height: 18px;
   margin: 0;
 }
 
@@ -478,6 +483,14 @@
 
   .form-row {
     grid-template-columns: 1fr;
+  }
+
+  .age-options {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .age-option {
+    padding: 10px 8px;
   }
 
   .list-filters {
