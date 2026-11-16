@@ -1,21 +1,19 @@
 import React, { useContext } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { BranchContext } from '../context/BranchContext';
 import AdminButton from './AdminButton';
 
 function Navbar() {
   const { clearBranch, selectBranch, showModal } = useContext(BranchContext);
-  const navigate = useNavigate();
 
   const handleSwitchBranch = () => {
     clearBranch(); // This opens the modal by resetting selectedBranch
   };
 
+  // Stay on the current page after choosing, so shared links like /shop-by-age/1 open as sent
   const handleSelectNewBranch = (branch) => {
-    selectBranch(branch, () => {
-      navigate('/'); // ✅ Redirect after selection
-    });
+    selectBranch(branch);
   };
 
   return (
